@@ -1,0 +1,70 @@
+#secaoDepoimentos {
+    margin: auto auto 96px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#divDepoimentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    gap: 32px;
+    background: rgba(196, 25, 25, 0.03);
+    width: 1216px;
+    border-radius: 16px;
+}
+#quoteAndSubheading {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 1088px;
+    height: 124px;
+    
+}
+#subheading {
+    font-size: 14px;
+    color: #8E2424;
+    font-weight: 700;
+    text-align: center;
+    margin: 0px;
+}
+#quote {
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #101828;
+    margin: 0px;
+}
+#atribuicao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 1088px;
+    height: 120px;
+    color: #101828;
+    margin: 0px;
+
+}
+#nomeESuporte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+#nome {
+    color:#101828;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0px;
+}
+#textoSuporte {
+    font-size: 14px;
+    color: #667085;
+    text-align: center;
+    font-weight: 500;
+    margin: 0px;
+}

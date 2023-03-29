@@ -1,0 +1,87 @@
+#secaoFormulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0px;
+    gap: 32px;
+    background: #F9FAFB;
+    width: 1440px;
+    margin: auto;
+}
+#divFormulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    width: 768px;
+}
+#infoFormulario {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+#textosFormulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+#tituloFormulario {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #101828;
+    margin: 0px;
+}
+#suporteFormulario {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #667085;
+    margin: 0px;
+}
+#capturaEmail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+#email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    width: 360px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+#textoEmail {
+    width: 330px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+    margin: 0px;
+    text-align: left;
+}
+#footerText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #98A2B3;
+    margin: 0px;
+}
