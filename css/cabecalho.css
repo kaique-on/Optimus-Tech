@@ -1,26 +1,29 @@
-#secaoItems {
+#cabecalho {
     display: flex;
-    gap: 12px;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0px;
+    gap: 24px;
+    order: 1;
+    align-self: stretch;
     width: 1440px;
-    margin: auto;
-    justify-content: center;
 }
-.itemMetrica {
-    width: 280px;
-    text-align: left;
-}
-.numeroItem {
+#sobreNos {
     color: #8E2424;
-    font-size: 60px;
-    margin: 0px;
-}
-.tituloItem {
-    color: #101828;
-    font-size: 18px;
-    margin-bottom: 0px;
+    font-size: 16px;
     font-weight: 600;
 }
-.textoItem {
-    color: #667085;
+#titulo1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    color: #101828;
+}
+#textoSuporte {
+    width: 791px;
+    height: 60px;
     font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #667085;
 }

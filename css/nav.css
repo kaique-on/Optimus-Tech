@@ -78,3 +78,12 @@ nav {
     font-size: 16px;
     margin: 0px;
 }
+
+@media screen and (max-width: 1366px) {
+    nav {
+        width: 1366px;
+    }
+    #secaoNav {
+        width: 1214px;
+    }
+}

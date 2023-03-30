@@ -1,0 +1,65 @@
+@media screen and (max-width: 500px) {
+    body{
+        width: 500px;
+    }
+    #cabecalho {
+        width: 500px;
+    }
+    #textoSuporte {
+        width: 400px;
+    }
+    #navigation {
+        display: none;
+        
+    }
+    #espaço {
+        display: none;
+    }
+    #secaoNav{
+        width: 443px;
+    }
+    nav {
+        width: 500px;
+    }
+    #secaoItems {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #secaoVagas {
+        width: 500px;
+    }
+    #tituloTalentos {
+        width: 350px
+    }
+    #textoTalentos {
+        width: 350px
+    }
+    #imagemPessoas {
+        width: 450px;
+        height: 200px;
+    }
+    #vagasAbertas {
+        width: 450px;
+    }
+    .borda{
+        width: 425px;
+    }
+    #secaoDepoimentos {
+        width: 500px;
+    }
+    #divDepoimentos {
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+    #quoteAndSubheading {
+        width: 450px;
+    }
+    #quote {
+        font-size: 20px;
+    }
+}

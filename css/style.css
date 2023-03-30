@@ -4,7 +4,7 @@
 @import "vagas.css";
 @import "depoimentos.css";
 @import "formulario.css";
-
+@import "resp.css";
 body {
     justify-content: center;
     display: flex;
@@ -25,3 +25,4 @@ header {
     justify-content: center;
     margin: auto;
 }
+
