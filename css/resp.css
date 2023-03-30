@@ -47,11 +47,13 @@
         width: 425px;
     }
     #secaoDepoimentos {
-        width: 500px;
+        width: 482.5px;
+        margin: 0px;
     }
     #divDepoimentos {
         width: 450px;
         display: flex;
+        align-items: center;
         flex-direction: column;
         gap: 10px;
         padding: 10px;
@@ -61,5 +63,40 @@
     }
     #quote {
         font-size: 20px;
+    }
+    #atribuicao {
+        width: 450px;
+    }
+    #secaoFormulario {
+        width: 500px;
+        height: 200px;
+        margin-top: 75px;
+    }
+    #infoFormulario {
+        width: 500px;
+    }
+    #tituloFormulario {
+        font-size: 24px;
+    }
+    #suporteFormulario {
+        font-size: 14px;
+    }
+    #capturaEmail {
+        width: 350px;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+    }
+    #email {
+        padding-left: 10px;
+    }
+    #textoEmail {
+        font-size: 14px;
+    }
+    #textoCadastrar {
+        padding: 10px;
+    }
+    #footerText {
+        font-size: 10px;
     }
 }
