@@ -43,6 +43,12 @@
     #vagasAbertas {
         width: 450px;
     }
+    .divVagasStyle {
+        width: 500px;
+    }
+    .divVagasTitulo {
+        width: 500px;
+    }
     .borda{
         width: 425px;
     }
@@ -71,6 +77,9 @@
         width: 500px;
         height: 200px;
         margin-top: 75px;
+    }
+    #divFormulario {
+        width: 500px;
     }
     #infoFormulario {
         width: 500px;
